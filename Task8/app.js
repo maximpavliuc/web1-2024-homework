@@ -13,8 +13,8 @@ function validateCredentials(username, password) {
     }
 }
 
-// Пример использования функции с разными входными данными
-validateCredentials("user", "password");   // Вывод: Привет
-validateCredentials("user", "wrongpass");  // Вывод: Неправильный пароль
-validateCredentials("wronguser", "pass");  // Вывод: Неправильный username
-validateCredentials("", "");               // Вывод: Ошибка Валидации
+
+validateCredentials("user", "password");   
+validateCredentials("user", "wrongpass");  
+validateCredentials("wronguser", "pass"); 
+validateCredentials("", "");              
